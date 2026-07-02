@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:id="@+id/title_contents"
+    android:paddingLeft="@dimen/purchase_page_margin"
+    android:paddingRight="@dimen/purchase_page_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?android:attr/windowTitleStyle">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchase_title"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/light_foreground"
+        android:id="@+id/account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/title"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

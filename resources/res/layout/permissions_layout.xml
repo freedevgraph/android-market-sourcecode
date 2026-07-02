@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.finsky.layout.AppSecurityPermissions xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/permissions_padding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/permissions_list"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:fadingEdgeLength="64dp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/permissions_height"
+        android:divider="@null"/>
+</com.google.android.finsky.layout.AppSecurityPermissions>

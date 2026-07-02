@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/pinstripe_tile_light_gray"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:splitMotionEvents="true">
+    <include
+        android:id="@+id/home_promo_panel"
+        android:visibility="gone"
+        layout="@layout/promo_strip"/>
+    <LinearLayout
+        android:id="@+id/home_content_panel"
+        android:paddingTop="@dimen/first_bucket_header_compensation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="-9dp"
+        android:layout_marginRight="8dp">
+        <include
+            android:id="@+id/home_browse_panel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            layout="@layout/bucket_list_panel"/>
+        <include
+            android:id="@+id/home_list_panel"
+            android:visibility="gone"
+            layout="@layout/category_panel"/>
+    </LinearLayout>
+</LinearLayout>

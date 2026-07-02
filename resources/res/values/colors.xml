@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_background">#cccccc</color>
+    <color name="details_background">#4b5054</color>
+    <color name="panel_background">#cccccc</color>
+    <color name="light_foreground">#555555</color>
+    <color name="description_font_color">#383838</color>
+    <color name="policy_link">#002397</color>
+    <color name="buy_it_font_color">#1590c3</color>
+    <color name="white">#ffffff</color>
+    <color name="bucket_header_info">#808080</color>
+    <color name="thumbnail_background">#61664a</color>
+    <color name="black">#000000</color>
+    <color name="permissions_border">#d9d9d9</color>
+    <color name="search_background">#d9d9d9</color>
+    <color name="apps_background">#b2cb39</color>
+    <color name="books_background">#409fe1</color>
+    <color name="movies_background">#c74b46</color>
+    <color name="grey">#aaaaaa</color>
+    <color name="buy_button_text_color">#707070</color>
+    <color name="category_panel_item_pressed_color">#cfdefc</color>
+    <color name="bucket_item_buy_it_text_color">#1590c3</color>
+    <color name="permissions_background">#e0e0e0</color>
+    <color name="action_bar_text_color">@android:color/primary_text_dark</color>
+    <color name="action_bar_secondary_text_color">@android:color/secondary_text_dark</color>
+    <color name="details_content_text_color">#404040</color>
+    <color name="empty_promo_background">#1affffff</color>
+</resources>

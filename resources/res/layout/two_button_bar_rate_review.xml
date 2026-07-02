@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:divider="?android:attr/dividerVertical"
+    android:showDividers="middle">
+    <Button
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/submit_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_review"
+        android:drawableLeft="@drawable/ic_menu_send_normal_holo_light"
+        style="?android:attr/buttonBarButtonStyle"/>
+    <Button
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/cancel_button"
+        android:paddingLeft="10dp"
+        android:paddingRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchase_cancel"
+        android:drawableLeft="@drawable/close_expanded_view"
+        style="?android:attr/buttonBarButtonStyle"/>
+</LinearLayout>

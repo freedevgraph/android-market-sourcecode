@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/BucketHeader">
+    <ImageView
+        android:id="@+id/header_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"/>
+    <TextView
+        android:textColor="#409fe1"
+        android:id="@+id/section_header"
+        android:layout_height="wrap_content"
+        style="@style/BucketHeaderText"/>
+    <ImageView
+        android:id="@+id/more_icon"
+        android:paddingLeft="15dp"
+        android:paddingTop="2dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

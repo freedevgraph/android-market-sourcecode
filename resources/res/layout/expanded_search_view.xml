@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <View
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="1px"
+        android:layout_height="1px">
+        <requestFocus/>
+    </View>
+    <android.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:queryHint="@string/search_hint"
+        style="@style/SizedSearchView"/>
+</FrameLayout>
